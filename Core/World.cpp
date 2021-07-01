@@ -93,13 +93,13 @@ namespace zre {
                     break;
             }
         }
+        lateBuffer.clear();
 
         for (GameObj* obj : startingObjs) {
             obj->startComps();
         }
 
         startingObjs.clear();
-        lateBuffer.clear();
     }
 
     ////////////////////////////////////////////////////////////////////////
